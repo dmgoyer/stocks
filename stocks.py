@@ -3,7 +3,6 @@ from datetime import date, timedelta
 from datetime import datetime
 import pandas as pd
 import yfinance as yf
-import pandas_datareader as pdr
 from bokeh.io import curdoc, show
 from bokeh.layouts import column, row
 from bokeh.models import ColumnDataSource, PreText, TextInput, Button, DatePicker, LinearAxis, Range1d
